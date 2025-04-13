@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace LibraryBookManagement
 {
-    public class LibrarySystem
+    public class LibrarySystem(List<Book> books)
     {
-        private List<Book> _books;
-
-        public LibrarySystem(List<Book> books)
-        {
-            _books = books;
-        }
+        private List<Book> _books = books;
 
         public void UpdateBooks()
         {
