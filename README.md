@@ -18,7 +18,7 @@ Business Rules:
 6. "In Repair" books take 5 days to repair
 7. Books cannot be borrowed if they are "Overdue" or "In Repair"
 
-#Major Refactored Changes:
+# Major Refactored Changes:
 
 1. From String Status to Constants
 
