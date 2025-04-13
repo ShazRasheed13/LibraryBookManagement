@@ -33,7 +33,7 @@ namespace LibraryBookManagement
         {
             if (_status == StatusBorrowed)
                 UpdateBorrowedStatus();
-            else if (_status == StatusInRepair)
+            if (_status == StatusInRepair)
                 UpdateRepairStatus();
         }
 
